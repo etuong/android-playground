@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context=".MainActivity" >
+    tools:context=".MainActivity">
 
     <com.google.android.material.appbar.AppBarLayout
         android:layout_width="match_parent"
@@ -21,10 +21,9 @@
 
     </com.google.android.material.appbar.AppBarLayout>
 
-    <ExpandableListView
-        android:id="@+id/elvChapters"
+    <ListView
+        android:id="@+id/mainListView"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content" >
-    </ExpandableListView>
+        android:layout_height="wrap_content"></ListView>
 
 </LinearLayout>

@@ -2,12 +2,17 @@
     <string name="app_name">Ethan\'s Playground</string>
     <string name="action_settings">Settings</string>
     <string name="action_about">About</string>
-    <!-- Strings used for fragments for navigation -->
+    <string name="topic1">Basic Component View</string>
+    <string name="topic2">Fragments</string>
+    <string name="topic3">Intents</string>
+    <string name="topic4">Images</string>
     <string name="first_fragment_label">First Fragment</string>
     <string name="second_fragment_label">Second Fragment</string>
     <string name="next">Next</string>
     <string name="previous">Previous</string>
-
-    <string name="hello_first_fragment">Hello first fragment</string>
-    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="hello_first_fragment">Hey, look at me, I\'m the first fragment</string>
+    <string name="hello_second_fragment">Hello! I\'m the second fragment.</string>
+    <string name="topic1_exercise1">(1) Type in a name and click on the button</string>
+    <string name="topic1_exercise2">(2) Two different ways to bind an onClick event</string>
+    <string name="topic3_exercise1">Type in an URL to create an intent that opens the web page</string>
 </resources>

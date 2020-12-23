@@ -19,9 +19,17 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".BasicTextViewActivity"
-            android:label="Hi Ethan" >
-        </activity>
+            android:name=".BasicComponentViewActivity"
+            android:label="@string/topic1"></activity>
+        <activity
+            android:name=".FragmentViewActivity"
+            android:label="@string/topic2"></activity>
+        <activity
+            android:name=".IntentsActivity"
+            android:label="@string/topic3"></activity>
+        <activity
+            android:name=".ImageActivity"
+            android:label="@string/topic4"></activity>
     </application>
 
 </manifest>
