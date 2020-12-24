@@ -22,33 +22,26 @@ public class ImageActivity extends Activity {
         setContentView(R.layout.activity_image_download);
         StrictMode.setThreadPolicy(
                 new StrictMode.ThreadPolicy.Builder().permitNetwork().build());
-        downloadImageFromUri("https://2.gravatar.com/avatar/858dfac47ab8176458c005414d3f0c36?s=128&d=&r=G");
+        String imageAddress = "https://media-exp1.licdn.com/dms/image/C5603AQGpsUsYDUu0jA/profile-displayphoto-shrink_400_400/0/1580958205996?e=1614211200&v=beta&t=mWxy1ra0gl1B4IYxJtAL2gYPWYSq8t7-lQJpW-8hiWk";
+        downloadImageFromUri(imageAddress);
     }
 
     private void downloadImageFromUri(String address) {
-        URL url;
         try {
-            url = new URL(address);
-        } catch (MalformedURLException e1) {
-            url = null;
-        }
-
-        URLConnection conn;
-        InputStream in;
-        Bitmap bitmap;
-        try {
-            conn = url.openConnection();
+            URL url = new URL(address);
+            URLConnection conn = url.openConnection();
             conn.connect();
-            in = conn.getInputStream();
-            bitmap = BitmapFactory.decodeStream(in);
-            in.close();
+            InputStream ins = conn.getInputStream();
+            Bitmap bitmap = BitmapFactory.decodeStream(ins);
+            ins.close();
+            if (bitmap != null) {
+                ImageView img = findViewById(R.id.ivBasicImage);
+                img.setImageBitmap(bitmap);
+            }
+        } catch (MalformedURLException e1) {
+            e1.printStackTrace();
         } catch (IOException e) {
-            bitmap = null;
-        }
-
-        if (bitmap != null) {
-            ImageView img = (ImageView) findViewById(R.id.ivBasicImage);
-            img.setImageBitmap(bitmap);
+            e.printStackTrace();
         }
     }
 }

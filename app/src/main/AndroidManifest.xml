@@ -19,17 +19,20 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".BasicComponentViewActivity"
-            android:label="@string/topic1"></activity>
+            android:name=".BasicComponentActivity"
+            android:label="@string/topic1" />
         <activity
             android:name=".FragmentViewActivity"
-            android:label="@string/topic2"></activity>
+            android:label="@string/topic2" />
         <activity
             android:name=".IntentsActivity"
-            android:label="@string/topic3"></activity>
+            android:label="@string/topic3" />
         <activity
             android:name=".ImageActivity"
-            android:label="@string/topic4"></activity>
+            android:label="@string/topic4" />
+        <activity
+            android:name=".AdvancedComponentActivity"
+            android:label="@string/topic5" />
     </application>
 
 </manifest>

@@ -5,7 +5,7 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     android:padding="10dp"
-    tools:context=".BasicComponentViewActivity">
+    tools:context=".BasicComponentActivity">
 
     <TextView
         android:layout_width="wrap_content"

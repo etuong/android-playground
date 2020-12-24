@@ -7,11 +7,11 @@ import android.widget.Button;
 import android.widget.EditText;
 import android.widget.TextView;
 
-public class BasicComponentViewActivity extends Activity {
+public class BasicComponentActivity extends Activity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_basic_component_view);
+        setContentView(R.layout.activity_basic_components);
 
         EditText editText = findViewById(R.id.bcvEditText);
         Button button = findViewById(R.id.bcvButton);

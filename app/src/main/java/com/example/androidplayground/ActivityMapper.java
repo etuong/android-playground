@@ -25,7 +25,10 @@ public class ActivityMapper {
 
     private void defineExerciseMappings() {
         classMap = new HashMap<String, Class<? extends Activity>>();
-        classMap.put("topic1", BasicComponentViewActivity.class);
+        classMap.put("topic1", BasicComponentActivity.class);
         classMap.put("topic2", FragmentViewActivity.class);
+        classMap.put("topic3", IntentsActivity.class);
+        classMap.put("topic4", ImageActivity.class);
+        classMap.put("topic5", AdvancedComponentActivity.class);
     }
 }

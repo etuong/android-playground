@@ -20,7 +20,7 @@ public class IntentsActivity extends Activity {
     public void visitUrlAddress(View v) {
         String urlAddress = urlTextView.getText().toString();
         if (urlAddress != null) {
-            if (!urlAddress.startsWith("http://") || !urlAddress.startsWith("https://"))
+            if (!urlAddress.startsWith("http://") && !urlAddress.startsWith("https://"))
                 urlAddress = "http://" + urlAddress;
             Intent i = new Intent(Intent.ACTION_VIEW);
             i.setData(Uri.parse(urlAddress));

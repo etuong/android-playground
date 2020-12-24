@@ -1,15 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string-array name="topics">
-        <item>Basic Components</item>
-        <item>Fragments</item>
-        <item>View Controls</item>
-        <item>User Interactions</item>
-        <item>User Flows</item>
-        <item>Networking</item>
-        <item>Advanced Views</item>
-        <item>Preferences</item>
-        <item>Content Providers</item>
-        <item>Publishing</item>
+        <item>@string/topic1</item>
+        <item>@string/topic2</item>
+        <item>@string/topic3</item>
+        <item>@string/topic4</item>
+        <item>@string/topic5</item>
+    </string-array>
+
+    <string-array name="spinner_options">
+        <item>Red</item>
+        <item>Orange</item>
+        <item>Yellow</item>
+        <item>Green</item>
+        <item>Blue</item>
+        <item>Indigo</item>
+        <item>Violet</item>
     </string-array>
 </resources>
