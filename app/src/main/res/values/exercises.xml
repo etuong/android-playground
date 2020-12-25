@@ -6,6 +6,8 @@
         <item>@string/topic3</item>
         <item>@string/topic4</item>
         <item>@string/topic5</item>
+        <item>@string/topic6</item>
+        <item>@string/topic7</item>
     </string-array>
 
     <string-array name="spinner_options">

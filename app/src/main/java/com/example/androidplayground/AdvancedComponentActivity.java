@@ -52,14 +52,15 @@ public class AdvancedComponentActivity extends Activity {
 
         Button btn2 = findViewById(R.id.button2);
         btn2.setOnClickListener(v -> {
-            final int initialTimeMinute = tpTime.getMinute();
+            final int initialMinuteTime = tpTime.getMinute();
             new Thread(() -> {
                 for (int i = 0; i <= 5; i++) {
                     int finalI = i;
-                    final int minuteTime = initialTimeMinute + finalI > 59 ? 0 : initialTimeMinute + finalI;
+                    final int minuteTime = initialMinuteTime + finalI;
+                    final int finalMinuteTime = minuteTime > 59 ? minuteTime - 60 : minuteTime;
                     hdlr.post(() -> {
                         pb.setProgress(20 * finalI);
-                        tpTime.setMinute(minuteTime);
+                        tpTime.setMinute(finalMinuteTime);
                     });
                     SystemClock.sleep(1000);
                 }

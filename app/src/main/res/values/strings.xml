@@ -13,10 +13,14 @@
     <string name="topic3">Intents</string>
     <string name="topic4">Networking and Images</string>
     <string name="topic5">Advanced Components</string>
-    <string name="topic1_exercise1">(1) Type in a name and click on the button</string>
-    <string name="topic1_exercise2">(2) Two different ways to bind an onClick event</string>
-    <string name="topic3_exercise1">Type in an URL to create an intent that opens the web page</string>
-    <string name="topic4_exercise1">This exercise connects to the internet and converts an image to the displayed bitmap</string>
-    <string name="topic5_exercise1">(1) Exercise on checkboxes, radio buttons, and spinners. Submit button brings up a toast component</string>
-    <string name="topic5_exercise2">(2) Exercise on ProgressBar and TimePicker. Clicking on the button starts a new async thread that count downs to 5 seconds</string>
+    <string name="topic6">Persistence</string>
+    <string name="topic7">Content Providers</string>
+    <string name="topic1_exercise1">(1) Type in a name and click on the button.</string>
+    <string name="topic1_exercise2">(2) Two different ways to bind an onClick event.</string>
+    <string name="topic3_exercise1">Type in an URL to create an intent that opens the web page.</string>
+    <string name="topic4_exercise1">This exercise connects to the internet and converts an image to the displayed bitmap.</string>
+    <string name="topic5_exercise1">(1) Exercise on checkboxes, radio buttons, and spinners. Submit button brings up a toast component.</string>
+    <string name="topic5_exercise2">(2) Exercise on ProgressBar and TimePicker. Clicking on the button starts a new async thread that count downs to 5 seconds.</string>
+    <string name="topic6_exercise1">Persist small key-value data using SharedPreferences. Save some data here and revisit to see that data are persisted.</string>
+    <string name="topic7_exercise1">A content provider component supplies data from one application to others on request. This exercise fetches and displays a list of contacts from your phone.</string>
 </resources>
