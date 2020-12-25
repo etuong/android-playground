@@ -8,6 +8,8 @@
         <item>@string/topic5</item>
         <item>@string/topic6</item>
         <item>@string/topic7</item>
+        <item>@string/topic8</item>
+        <item>@string/topic9</item>
     </string-array>
 
     <string-array name="spinner_options">

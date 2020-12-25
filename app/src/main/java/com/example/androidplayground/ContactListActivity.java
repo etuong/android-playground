@@ -5,7 +5,6 @@ import android.app.Activity;
 import android.content.ContentResolver;
 import android.content.pm.PackageManager;
 import android.database.Cursor;
-import android.net.Uri;
 import android.os.Bundle;
 import android.provider.ContactsContract;
 import android.widget.ArrayAdapter;
@@ -61,10 +60,8 @@ public class ContactListActivity extends Activity {
 
     @SuppressLint("NewApi")
     private void loadContacts() {
-        Uri allContacts = Uri.parse("content://contacts/people");
-        Cursor contact = getContentResolver().query(allContacts, null, null, null, null);
         ContentResolver cr = getContentResolver();
-
+        Cursor contact = cr.query(ContactsContract.Contacts.CONTENT_URI, null, null, null, null);
         if (contact.moveToFirst()) {
             do {
                 String name = contact.getString(contact.getColumnIndex(ContactsContract.Contacts.DISPLAY_NAME));

@@ -32,5 +32,7 @@ public class ActivityMapper {
         classMap.put("topic5", AdvancedComponentActivity.class);
         classMap.put("topic6", PersistenceActivity.class);
         classMap.put("topic7", ContactListActivity.class);
+        classMap.put("topic8", BroadcastExampleActivity.class);
+        classMap.put("topic9", SendTextMessageActivity.class);
     }
 }

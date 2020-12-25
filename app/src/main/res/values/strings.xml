@@ -15,6 +15,8 @@
     <string name="topic5">Advanced Components</string>
     <string name="topic6">Persistence</string>
     <string name="topic7">Content Providers</string>
+    <string name="topic8">Broadcast Receiver Example</string>
+    <string name="topic9">Send Text Messages</string>
     <string name="topic1_exercise1">(1) Type in a name and click on the button.</string>
     <string name="topic1_exercise2">(2) Two different ways to bind an onClick event.</string>
     <string name="topic3_exercise1">Type in an URL to create an intent that opens the web page.</string>
@@ -23,4 +25,7 @@
     <string name="topic5_exercise2">(2) Exercise on ProgressBar and TimePicker. Clicking on the button starts a new async thread that count downs to 5 seconds.</string>
     <string name="topic6_exercise1">Persist small key-value data using SharedPreferences. Save some data here and revisit to see that data are persisted.</string>
     <string name="topic7_exercise1">A content provider component supplies data from one application to others on request. This exercise fetches and displays a list of contacts from your phone.</string>
+    <string name="topic8_exercise1">A broadcast receiver is an Android component which allows you to register for system or application events. They simply respond to broadcast messages from other applications or from the system itself.</string>
+    <string name="topic8_exercise2">This exercise registers the AIRPLANE_MODE intent and displays a toast upon an event change. To see it in action, toggle your phone\'s airplane mode on this view.</string>
+    <string name="topic9_exercise1">This exercises uses the SmsManager API. Fill out a phone number to text and a message to send.</string>
 </resources>
