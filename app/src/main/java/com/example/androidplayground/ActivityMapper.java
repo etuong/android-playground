@@ -34,5 +34,6 @@ public class ActivityMapper {
         classMap.put("topic7", ContactListActivity.class);
         classMap.put("topic8", BroadcastExampleActivity.class);
         classMap.put("topic9", SendTextMessageActivity.class);
+        classMap.put("topic10", DragAndDropActivity.class);
     }
 }

@@ -17,6 +17,7 @@
     <string name="topic7">Content Providers</string>
     <string name="topic8">Broadcast Receiver Example</string>
     <string name="topic9">Send Text Messages</string>
+    <string name="topic10">Drag and Drop</string>
     <string name="topic1_exercise1">(1) Type in a name and click on the button.</string>
     <string name="topic1_exercise2">(2) Two different ways to bind an onClick event.</string>
     <string name="topic3_exercise1">Type in an URL to create an intent that opens the web page.</string>
@@ -28,4 +29,5 @@
     <string name="topic8_exercise1">A broadcast receiver is an Android component which allows you to register for system or application events. They simply respond to broadcast messages from other applications or from the system itself.</string>
     <string name="topic8_exercise2">This exercise registers the AIRPLANE_MODE intent and displays a toast upon an event change. To see it in action, toggle your phone\'s airplane mode on this view.</string>
     <string name="topic9_exercise1">This exercises uses the SmsManager API. Fill out a phone number to text and a message to send.</string>
+    <string name="topic10_exercise1">Blah.</string>
 </resources>
