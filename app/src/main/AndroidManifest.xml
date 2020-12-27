@@ -11,7 +11,7 @@
         android:allowBackup="true"
         android:icon="@mipmap/ic_happy"
         android:label="@string/app_name"
-        android:roundIcon="@mipmap/ic_launcher_round"
+        android:roundIcon="@mipmap/ic_happy"
         android:supportsRtl="true"
         android:theme="@style/Theme.AndroidPlayground">
 
@@ -60,7 +60,10 @@
             android:label="@string/topic9" />
         <activity
             android:name=".DragAndDropActivity"
-            android:label="@string/topic10" />
+            android:label="@string/topic10"/>
+        <activity
+            android:name=".NotificationActivity"
+            android:label="@string/topic11" />
     </application>
 
 </manifest>
