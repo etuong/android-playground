@@ -46,7 +46,7 @@ public class MainActivity extends AppCompatActivity {
             String topicTitle = (String) adapter.getItemAtPosition(position);
             Class<? extends Activity> topicClass = listAdapter.getTopicClass(position);
             if (topicClass != null) {
-                Toast.makeText(MainActivity.this, topicTitle, Toast.LENGTH_LONG).show();
+                Toast.makeText(MainActivity.this, topicTitle, Toast.LENGTH_SHORT).show();
                 startActivity(new Intent(MainActivity.this, topicClass));
             } else {
                 Toast.makeText(MainActivity.this, "Exercise Not Available", Toast.LENGTH_SHORT).show();

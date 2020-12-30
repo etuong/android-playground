@@ -42,7 +42,7 @@ public class ContactListActivity extends Activity {
             if (grantResults.length > 0 && grantResults[0] == PackageManager.PERMISSION_GRANTED) {
                 loadContacts();
             } else {
-                Toast.makeText(this, "Permission Denied, Not able to load contact", Toast.LENGTH_LONG).show();
+                Toast.makeText(this, "Permission Denied, Not able to load contact", Toast.LENGTH_SHORT).show();
             }
         }
     }

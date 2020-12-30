@@ -19,6 +19,7 @@
     <string name="topic9">Send Text Messages</string>
     <string name="topic10">Drag and Drop</string>
     <string name="topic11">Notifications</string>
+    <string name="topic12">Database</string>
     <string name="topic1_exercise1">(1) Type in a name and click on the button.</string>
     <string name="topic1_exercise2">(2) Two different ways to bind an onClick event.</string>
     <string name="topic3_exercise1">Type in an URL to create an intent that opens the web page.</string>
@@ -33,4 +34,6 @@
     <string name="topic10_exercise1">Android drag/drop framework allows users to move data from one View to another View in the current layout. Exercise: Drag and drop Yes/No to the circle.</string>
     <string name="topic11_exercise1">A notification is a message you display to the user as an icon in the notification area.</string>
     <string name="topic11_exercise2">For this exercise, click on the button to see the notification. Upon clicking on the notification, you\'ll be redirect to another exercise.</string>
+    <string name="topic12_exercise1">Create, edit, or delete contacts from the menu action bar.</string>
+    <string name="topic12_exercise2">Database file is stored at /data/data/com.example.androidplayground/databases/myContact.db</string>
 </resources>

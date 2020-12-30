@@ -12,6 +12,7 @@
         <item>@string/topic9</item>
         <item>@string/topic10</item>
         <item>@string/topic11</item>
+        <item>@string/topic12</item>
     </string-array>
 
     <string-array name="spinner_options">
